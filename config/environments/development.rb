@@ -57,4 +57,6 @@ config.webpacker.check_yarn_integrity = true
 
   config.x.webpacker[:dev_server_host] = "http://127.0.0.1:8081"
 
+  config.webpacker.check_yarn_integrity = false
+
 end
